@@ -1,9 +1,9 @@
-bootlin0125@gentry01:~/Documents/bootlin/crosstool-ng$ ./ct-ng build
+$HOME/Documents/bootlin/crosstool-ng$ ./ct-ng build
 [INFO ]  Performing some trivial sanity checks
 [WARN ]  Number of open files 1024 may not be sufficient to build the toolchain; increasing to 2048
 [INFO ]  Build started 20250113.154750
 [INFO ]  Building environment variables
-[WARN ]  Directory '/home/bootlin0125/src' does not exist.
+[WARN ]  Directory '$HOME/src' does not exist.
 [WARN ]  Will not save downloaded tarballs to local storage.
 [EXTRA]  Preparing working directories
 [EXTRA]  Installing user-supplied crosstool-NG configuration
@@ -173,12 +173,12 @@ bootlin0125@gentry01:~/Documents/bootlin/crosstool-ng$ ./ct-ng build
 [EXTRA]    Installing a cross-ldd helper
 [EXTRA]    Creating toolchain aliases
 [EXTRA]    Removing installed documentation
-[EXTRA]    Collect license information from: /home/bootlin0125/Documents/Bootlin/2025_013-Embedded_Linux_Systems_Development/crosstool-ng/.build/arm-training-linux-musleabihf/src
-[EXTRA]    Put the license information to: /home/bootlin0125/x-tools/arm-training-linux-musleabihf/share/licenses
+[EXTRA]    Collect license information from: $HOME/Documents/Bootlin/2025_013-Embedded_Linux_Systems_Development/crosstool-ng/.build/arm-training-linux-musleabihf/src
+[EXTRA]    Put the license information to: $HOME/x-tools/arm-training-linux-musleabihf/share/licenses
 [INFO ]  Finalizing the toolchain's directory: done in 2.28s (at 27:53)
 [INFO ]  Build completed at 20250113.161543
 [INFO ]  (elapsed: 27:53.09)
 [INFO ]  Finishing installation (may take a few seconds)...
-[27:53] / bootlin0125@gentry01:~/Documents/bootlin/crosstool-ng$ 
-bootlin0125@gentry01:~/Documents/bootlin/crosstool-ng$ 
+[27:53] / $HOME/Documents/bootlin/crosstool-ng$ 
+$HOME/Documents/bootlin/crosstool-ng$ 
 
