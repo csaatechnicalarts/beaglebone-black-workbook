@@ -95,6 +95,7 @@ $> ./bootstrap
 $> ./configure --enable-local
 $> make
 ```
+This will build and install Crosstools-ng in `$HOME/x-tools`.
 
 ### Confirm Crosstool-ng works
 
