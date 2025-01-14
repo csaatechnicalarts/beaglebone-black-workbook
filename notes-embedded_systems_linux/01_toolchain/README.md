@@ -142,12 +142,15 @@ $> ./ct-ng menuconfig
 7. **Debug** options:
 
 - Clear all the debug options since these can be installed later in the *filesystem building* phase.
+  
+This process will yield a configuration file for the toolchain build: [.config](https://github.com/csaatechnicalarts/beaglebone-black-workbook/blob/main/notes-embedded_systems_linux/01_toolchain/2025_0113-ct_ng-dot_config-output.txt) (in this case for the Beaglebone Black)
 
-### Create the .config file for the toolchain
+### Create the toolchain
 
 ```
 $> ./ct-ng build
 ```
+Here is the [build output](https://github.com/csaatechnicalarts/beaglebone-black-workbook/blob/main/notes-embedded_systems_linux/01_toolchain/ct_ng_build-output.txt) for the Beaglebone Black.
 
 ### Confirm the new toolchain works
 
